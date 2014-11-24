@@ -205,6 +205,7 @@ import quests.Q00225_TestOfTheSearcher.Q00225_TestOfTheSearcher;
 import quests.Q00226_TestOfTheHealer.Q00226_TestOfTheHealer;
 import quests.Q00228_TestOfMagus.Q00228_TestOfMagus;
 import quests.Q00229_TestOfWitchcraft.Q00229_TestOfWitchcraft;
+import quests.Q00231_TestOfTheMaestro.Q00231_TestOfTheMaestro;
 import quests.Q00232_TestOfTheLord.Q00232_TestOfTheLord;
 import quests.Q00235_MimirsElixir.Q00235_MimirsElixir;
 import quests.Q00237_WindsOfChange.Q00237_WindsOfChange;
@@ -288,6 +289,7 @@ import quests.Q00344_1000YearsTheEndOfLamentation.Q00344_1000YearsTheEndOfLament
 import quests.Q00345_MethodToRaiseTheDead.Q00345_MethodToRaiseTheDead;
 import quests.Q00347_GoGetTheCalculator.Q00347_GoGetTheCalculator;
 import quests.Q00350_EnhanceYourWeapon.Q00350_EnhanceYourWeapon;
+import quests.Q00351_BlackSwan.Q00351_BlackSwan;
 import quests.Q00352_HelpRoodRaiseANewPet.Q00352_HelpRoodRaiseANewPet;
 import quests.Q00354_ConquestOfAlligatorIsland.Q00354_ConquestOfAlligatorIsland;
 import quests.Q00355_FamilyHonor.Q00355_FamilyHonor;
@@ -653,6 +655,7 @@ public class QuestMasterHandler
 		Q00226_TestOfTheHealer.class,
 		Q00228_TestOfMagus.class,
 		Q00229_TestOfWitchcraft.class,
+		Q00231_TestOfTheMaestro.class,
 		Q00232_TestOfTheLord.class,
 		Q00235_MimirsElixir.class,
 		Q00237_WindsOfChange.class,
@@ -736,6 +739,7 @@ public class QuestMasterHandler
 		Q00345_MethodToRaiseTheDead.class,
 		Q00347_GoGetTheCalculator.class,
 		Q00350_EnhanceYourWeapon.class,
+		Q00351_BlackSwan.class,
 		Q00352_HelpRoodRaiseANewPet.class,
 		Q00354_ConquestOfAlligatorIsland.class,
 		Q00355_FamilyHonor.class,
