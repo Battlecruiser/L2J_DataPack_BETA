@@ -74,6 +74,7 @@ import quests.Q00061_LawEnforcement.Q00061_LawEnforcement;
 import quests.Q00062_PathOfTheTrooper.Q00062_PathOfTheTrooper;
 import quests.Q00063_PathOfTheWarder.Q00063_PathOfTheWarder;
 import quests.Q00064_CertifiedBerserker.Q00064_CertifiedBerserker;
+import quests.Q00066_CertifiedArbalester.Q00066_CertifiedArbalester;
 import quests.Q00067_SagaOfTheDoombringer.Q00067_SagaOfTheDoombringer;
 import quests.Q00068_SagaOfTheSoulHound.Q00068_SagaOfTheSoulHound;
 import quests.Q00069_SagaOfTheTrickster.Q00069_SagaOfTheTrickster;
@@ -126,6 +127,7 @@ import quests.Q00115_TheOtherSideOfTruth.Q00115_TheOtherSideOfTruth;
 import quests.Q00116_BeyondTheHillsOfWinter.Q00116_BeyondTheHillsOfWinter;
 import quests.Q00117_TheOceanOfDistantStars.Q00117_TheOceanOfDistantStars;
 import quests.Q00119_LastImperialPrince.Q00119_LastImperialPrince;
+import quests.Q00120_PavelsLastResearch.Q00120_PavelsLastResearch;
 import quests.Q00121_PavelTheGiant.Q00121_PavelTheGiant;
 import quests.Q00122_OminousNews.Q00122_OminousNews;
 import quests.Q00124_MeetingTheElroki.Q00124_MeetingTheElroki;
@@ -194,6 +196,7 @@ import quests.Q00212_TrialOfDuty.Q00212_TrialOfDuty;
 import quests.Q00213_TrialOfTheSeeker.Q00213_TrialOfTheSeeker;
 import quests.Q00214_TrialOfTheScholar.Q00214_TrialOfTheScholar;
 import quests.Q00215_TrialOfThePilgrim.Q00215_TrialOfThePilgrim;
+import quests.Q00216_TrialOfTheGuildsman.Q00216_TrialOfTheGuildsman;
 import quests.Q00217_TestimonyOfTrust.Q00217_TestimonyOfTrust;
 import quests.Q00218_TestimonyOfLife.Q00218_TestimonyOfLife;
 import quests.Q00219_TestimonyOfFate.Q00219_TestimonyOfFate;
@@ -315,6 +318,7 @@ import quests.Q00379_FantasyWine.Q00379_FantasyWine;
 import quests.Q00380_BringOutTheFlavorOfIngredients.Q00380_BringOutTheFlavorOfIngredients;
 import quests.Q00381_LetsBecomeARoyalMember.Q00381_LetsBecomeARoyalMember;
 import quests.Q00382_KailsMagicCoin.Q00382_KailsMagicCoin;
+import quests.Q00383_TreasureHunt.Q00383_TreasureHunt;
 import quests.Q00385_YokeOfThePast.Q00385_YokeOfThePast;
 import quests.Q00401_PathOfTheWarrior.Q00401_PathOfTheWarrior;
 import quests.Q00402_PathOfTheHumanKnight.Q00402_PathOfTheHumanKnight;
@@ -524,6 +528,7 @@ public class QuestMasterHandler
 		Q00062_PathOfTheTrooper.class,
 		Q00063_PathOfTheWarder.class,
 		Q00064_CertifiedBerserker.class,
+		Q00066_CertifiedArbalester.class,
 		Q00067_SagaOfTheDoombringer.class,
 		Q00068_SagaOfTheSoulHound.class,
 		Q00069_SagaOfTheTrickster.class,
@@ -576,6 +581,7 @@ public class QuestMasterHandler
 		Q00116_BeyondTheHillsOfWinter.class,
 		Q00117_TheOceanOfDistantStars.class,
 		Q00119_LastImperialPrince.class,
+		Q00120_PavelsLastResearch.class,
 		Q00121_PavelTheGiant.class,
 		Q00122_OminousNews.class,
 		Q00124_MeetingTheElroki.class,
@@ -644,6 +650,7 @@ public class QuestMasterHandler
 		Q00213_TrialOfTheSeeker.class,
 		Q00214_TrialOfTheScholar.class,
 		Q00215_TrialOfThePilgrim.class,
+		Q00216_TrialOfTheGuildsman.class,
 		Q00217_TestimonyOfTrust.class,
 		Q00218_TestimonyOfLife.class,
 		Q00219_TestimonyOfFate.class,
@@ -765,6 +772,7 @@ public class QuestMasterHandler
 		Q00380_BringOutTheFlavorOfIngredients.class,
 		Q00381_LetsBecomeARoyalMember.class,
 		Q00382_KailsMagicCoin.class,
+		Q00383_TreasureHunt.class,
 		Q00385_YokeOfThePast.class,
 		Q00401_PathOfTheWarrior.class,
 		Q00402_PathOfTheHumanKnight.class,

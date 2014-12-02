@@ -20,13 +20,11 @@ package ai.npc;
 
 import java.util.logging.Logger;
 
-import com.l2jserver.gameserver.ai.CtrlIntention;
-import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.actor.L2Playable;
+import com.l2jserver.gameserver.model.actor.instance.L2MonsterInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.holders.SkillHolder;
+import com.l2jserver.gameserver.model.holders.MinionHolder;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
@@ -166,46 +164,11 @@ public abstract class AbstractNpcAI extends Quest
 		Broadcast.toSelfAndKnownPlayersInRadius(character, new SocialAction(character.getObjectId(), actionId), radius);
 	}
 	
-	/**
-	 * Monster is running and attacking the playable.
-	 * @param npc
-	 * @param playable
-	 */
-	protected void attackPlayer(L2Attackable npc, L2Playable playable)
+	public void spawnMinions(final L2Npc npc, final String spawnName)
 	{
-		attackPlayer(npc, playable, 999);
-	}
-	
-	/**
-	 * Monster is running and attacking the target.
-	 * @param npc the NPC that performs the attack
-	 * @param target the target of the attack
-	 * @param desire the desire to perform the attack
-	 */
-	protected void attackPlayer(L2Npc npc, L2Playable target, int desire)
-	{
-		if (npc instanceof L2Attackable)
+		for (MinionHolder is : npc.getTemplate().getParameters().getMinionList(spawnName))
 		{
-			((L2Attackable) npc).addDamageHate(target, 0, desire);
+			addMinion((L2MonsterInstance) npc, is.getId());
 		}
-		npc.setIsRunning(true);
-		npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
-	}
-	
-	/**
-	 * Monster cast an skill to the character.
-	 * @param npc the NPC whom cast the skill
-	 * @param target the skill target
-	 * @param skill the skill to cast
-	 * @param desire the desire to cast the skill
-	 */
-	protected void castSkill(L2Npc npc, L2Character target, SkillHolder skill, int desire)
-	{
-		if (npc instanceof L2Attackable)
-		{
-			((L2Attackable) npc).addDamageHate(target, 0, desire);
-		}
-		npc.setTarget(target);
-		npc.getAI().setIntention(CtrlIntention.AI_INTENTION_CAST, skill.getSkill(), target);
 	}
 }
