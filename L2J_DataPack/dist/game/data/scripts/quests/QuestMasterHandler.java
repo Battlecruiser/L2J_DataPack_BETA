@@ -170,6 +170,7 @@ import quests.Q00167_DwarvenKinship.Q00167_DwarvenKinship;
 import quests.Q00168_DeliverSupplies.Q00168_DeliverSupplies;
 import quests.Q00169_OffspringOfNightmares.Q00169_OffspringOfNightmares;
 import quests.Q00170_DangerousSeduction.Q00170_DangerousSeduction;
+import quests.Q00171_ActsOfEvil.Q00171_ActsOfEvil;
 import quests.Q00172_NewHorizons.Q00172_NewHorizons;
 import quests.Q00173_ToTheIsleOfSouls.Q00173_ToTheIsleOfSouls;
 import quests.Q00174_SupplyCheck.Q00174_SupplyCheck;
@@ -178,6 +179,8 @@ import quests.Q00176_StepsForHonor.Q00176_StepsForHonor;
 import quests.Q00179_IntoTheLargeCavern.Q00179_IntoTheLargeCavern;
 import quests.Q00182_NewRecruits.Q00182_NewRecruits;
 import quests.Q00183_RelicExploration.Q00183_RelicExploration;
+import quests.Q00184_ArtOfPersuasion.Q00184_ArtOfPersuasion;
+import quests.Q00185_NikolasCooperation.Q00185_NikolasCooperation;
 import quests.Q00186_ContractExecution.Q00186_ContractExecution;
 import quests.Q00187_NikolasHeart.Q00187_NikolasHeart;
 import quests.Q00188_SealRemoval.Q00188_SealRemoval;
@@ -202,6 +205,7 @@ import quests.Q00218_TestimonyOfLife.Q00218_TestimonyOfLife;
 import quests.Q00219_TestimonyOfFate.Q00219_TestimonyOfFate;
 import quests.Q00220_TestimonyOfGlory.Q00220_TestimonyOfGlory;
 import quests.Q00221_TestimonyOfProsperity.Q00221_TestimonyOfProsperity;
+import quests.Q00222_TestOfTheDuelist.Q00222_TestOfTheDuelist;
 import quests.Q00223_TestOfTheChampion.Q00223_TestOfTheChampion;
 import quests.Q00224_TestOfSagittarius.Q00224_TestOfSagittarius;
 import quests.Q00225_TestOfTheSearcher.Q00225_TestOfTheSearcher;
@@ -210,6 +214,7 @@ import quests.Q00228_TestOfMagus.Q00228_TestOfMagus;
 import quests.Q00229_TestOfWitchcraft.Q00229_TestOfWitchcraft;
 import quests.Q00231_TestOfTheMaestro.Q00231_TestOfTheMaestro;
 import quests.Q00232_TestOfTheLord.Q00232_TestOfTheLord;
+import quests.Q00233_TestOfTheWarSpirit.Q00233_TestOfTheWarSpirit;
 import quests.Q00235_MimirsElixir.Q00235_MimirsElixir;
 import quests.Q00237_WindsOfChange.Q00237_WindsOfChange;
 import quests.Q00238_SuccessFailureOfBusiness.Q00238_SuccessFailureOfBusiness;
@@ -624,6 +629,7 @@ public class QuestMasterHandler
 		Q00168_DeliverSupplies.class,
 		Q00169_OffspringOfNightmares.class,
 		Q00170_DangerousSeduction.class,
+		Q00171_ActsOfEvil.class,
 		Q00172_NewHorizons.class,
 		Q00173_ToTheIsleOfSouls.class,
 		Q00174_SupplyCheck.class,
@@ -632,6 +638,8 @@ public class QuestMasterHandler
 		Q00179_IntoTheLargeCavern.class,
 		Q00182_NewRecruits.class,
 		Q00183_RelicExploration.class,
+		Q00184_ArtOfPersuasion.class,
+		Q00185_NikolasCooperation.class,
 		Q00186_ContractExecution.class,
 		Q00187_NikolasHeart.class,
 		Q00188_SealRemoval.class,
@@ -656,6 +664,7 @@ public class QuestMasterHandler
 		Q00219_TestimonyOfFate.class,
 		Q00220_TestimonyOfGlory.class,
 		Q00221_TestimonyOfProsperity.class,
+		Q00222_TestOfTheDuelist.class,
 		Q00223_TestOfTheChampion.class,
 		Q00224_TestOfSagittarius.class,
 		Q00225_TestOfTheSearcher.class,
@@ -664,6 +673,7 @@ public class QuestMasterHandler
 		Q00229_TestOfWitchcraft.class,
 		Q00231_TestOfTheMaestro.class,
 		Q00232_TestOfTheLord.class,
+		Q00233_TestOfTheWarSpirit.class,
 		Q00235_MimirsElixir.class,
 		Q00237_WindsOfChange.class,
 		Q00238_SuccessFailureOfBusiness.class,
